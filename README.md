@@ -5,10 +5,8 @@ including unet,unet++,attention-unet,r2unet,cenet,segnet ,fcn.
 window10(Ubuntu is OK)+pycharm+python3.6+pytorch1.3.1  
 
 ## HOW TO RUN:
-python main.py --action train   #train the code
-python main.py --action train&test   #train and test
-python main.py --action test   #test 
-
+The only thing you should do is enter the dataset.py and correct the path of the datasets.
+then run ~
 example:
 ```
 python main.py --action train&test --arch UNet --epoch 21 --batch_size 21 
